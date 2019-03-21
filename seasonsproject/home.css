@@ -1,0 +1,102 @@
+body {
+		font-family: Verdana;
+		background-color: #0000cc;
+		margin:0;
+		padding:0;
+			/* Body normally has margin, so we need to fix that every time.*/
+		background-image: url(bg.jpg);
+		background-repeat:no-repeat;
+		background-position: top-center;
+		background-size: 100%;
+}
+/* This is targetting all things with the id "wrap"*/
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+	/* This 0 auto will automatically put the same amount of margin on the left and right */
+}
+
+header img {
+	width:50%;
+}
+
+header {
+	padding: 10px;
+	text-align: center;
+	background-color: #00cc00;
+	font-size: 80px;
+}
+
+nav {
+	background-color: gray;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+nav ul {
+	margin: 0 ;
+	padding: 0 ;
+}
+
+nav li{
+		display: inline;
+		padding: 20px;
+}
+
+nav a{
+		color: white;
+		text-decoration: none;
+		padding: 10px 30px;
+		/* This padding allows us to highlight everything around the elements in nav when hovered over*/
+}
+
+
+nav a:hover {
+		color: navy;
+		background-color: orange;
+		
+}
+
+nav b:hover {
+		color: navy;
+		background-color: orange;
+		
+}
+
+
+section {
+	padding: 10px;
+	background-color: white;
+	overflow: auto;
+	/* This "overflow" allows us to put images we floated back into our section instead
+	of stretching outside it*/
+}
+
+.button {
+	background-color: navy;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 15px 0;
+	display:inline-block;
+}
+
+a.button:hover {
+	background-color:orange;
+}
+
+.bgpic {
+		width:45%;
+		padding: 5px;
+		float: right;
+		/* You can only float to the left and right, not the middle*/
+}
+footer{
+	background-color: #00cc00;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
